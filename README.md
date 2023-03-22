@@ -28,12 +28,12 @@ Anaconda - Python 3.7
 <br>
 
 ## Program:
-``` Python
+
 ### Developed By: SV ROHITHKUMAR
 ### Register No:212221230084
 
 ## i) Write the frame as JPG file
-~~~
+```
 import cv2
 videocaptureobject=cv2.VideoCapture(0)
 while True:
@@ -43,28 +43,21 @@ while True:
         break
 videocaptureobject.release()
 cv2.destroyAllWindows()
-~~~
+```
+
 
 
 
 ## ii) Display the video
 ```
 import cv2
-
 videocaptureobject=cv2.VideoCapture(0)
-
 while True:
-
     ret,frame=videocaptureobject.read()
-    
     cv2.imshow("videoimage.jpg",frame)
-    
     if cv2.waitKey(1) == ord('q'):
-    
         break
-        
 videocaptureobject.release()
-
 cv2.destroyAllWindows()
 
 ```
@@ -132,7 +125,6 @@ cv2.destroyAllWindows()
 
 
 
-```
 ## Output
 
 ### i) Write the frame as JPG image
