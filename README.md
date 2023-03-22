@@ -14,17 +14,22 @@ Anaconda - Python 3.7
 ## Algorithm
 ### Step 1:
 <br>
+Use VideoCapture(0) to access web camera
 
 ### Step 2:
 <br>
+Use imread to read the video or image
 
 ### Step 3:
+Use imwrite to save the image
 <br>
 
 ### Step 4:
+Use imshow to show the video
 <br>
 
 ### Step 5:
+End the program and close the output video windows by pressing 'q'.
 <br>
 
 ## Program:
