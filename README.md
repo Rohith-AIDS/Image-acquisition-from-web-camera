@@ -33,25 +33,17 @@ Anaconda - Python 3.7
 ### Register No:212221230084
 
 ## i) Write the frame as JPG file
-```
+~~~
 import cv2
-
 videocaptureobject=cv2.VideoCapture(0)
-
 while True:
-
     ret,frame=videocaptureobject.read()
-    
     cv2.imwrite("videoimage.jpg",frame)
-    
     if cv2.waitKey(1) == ord('q'):
-    
         break
-        
 videocaptureobject.release()
-
 cv2.destroyAllWindows()
-```
+~~~
 
 
 
