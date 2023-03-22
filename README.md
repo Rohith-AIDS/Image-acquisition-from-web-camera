@@ -125,7 +125,7 @@ cv2.destroyAllWindows()
 ### ii) Display the video
 </br>
 
-![](r1.png)
+![](R1.png)
 </br>
 
 
